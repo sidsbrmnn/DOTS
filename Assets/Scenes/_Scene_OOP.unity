@@ -331,9 +331,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 700728151}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc521d0e2594f43fd803d6ad9e81a875, type: 3}
+  m_Script: {fileID: 11500000, guid: c8606465ba8934fbc8add79444fc6099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textureSize: 1080
+  noiseScale: 10
+  noiseOffset: {x: 0, y: 0}
+  offsetVal: {x: 1, y: 0}
+  perlinVars:
+    numOctaves: 4
+    lacunarity: 2
+    persistence: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
